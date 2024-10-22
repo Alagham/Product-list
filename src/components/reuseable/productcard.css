@@ -1,0 +1,42 @@
+.card-details{
+    width: 400px;
+    height: 230px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color:#411a06 ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+   /* justify-content: center;
+    align-items: center; */
+
+    button{
+        width: 120px;
+        height: 30px;
+        margin-top:  40px;
+        background: none;
+        border-radius: 6px;
+        background-color: #ef976f;
+        border: none;
+    }
+
+    img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:150px;
+        height: 150px;
+        margin:35px 20%;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+    h2{
+        /* text-align: center; */
+    }
+
+    main{
+        margin-right: 30px;
+        margin-Top: 10px;
+    }
+}
